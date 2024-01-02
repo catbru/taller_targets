@@ -34,5 +34,3 @@ The pipeline is defined as a series of `tar_target` calls, each representing a s
 
 ## Getting Started
 To use this project, clone the repository and ensure you have all the necessary R packages installed. You can run the pipeline using the `targets` package's functions, such as `tar_make()` to execute the entire pipeline or `tar_visnetwork()` to visualize the pipeline structure.
-
-For any questions or suggestions, please contact [Roger] at [catbru@gmail.com].
