@@ -1,10 +1,8 @@
 ---
 title: "Evolució del Preu de l'Habitatge a Catalunya"
-format: html
-editor: visual
-execute:
-  echo: false
-theme: morph
+output: 
+  html_document:
+    theme: journal
 ---
 
 ## Introducció
@@ -13,7 +11,7 @@ L'habitatge ha estat sempre un dels pilars fonamentals en la vida de les persone
 
 ## Anàlisi del Preu de Venda
 
-```{r}
+```{r, echo=FALSE}
 targets::tar_read("map_sale_price_muni_cat")
 ```
 
@@ -21,7 +19,7 @@ El primer gràfic mostra l'evolució del preu de venda d'habitatges per municipi
 
 ## Preus de Lloguer a Barcelona
 
-```{r}
+```{r, echo=FALSE}
 targets::tar_read("plot_rent_price_by_bcn_districts")
 ```
 
@@ -29,7 +27,7 @@ Focalitzant-nos en la ciutat de Barcelona, aquest segon gràfic mostra l'evoluci
 
 ## Comparativa Provincial dels Preus de Lloguer
 
-```{r}
+```{r, echo=FALSE}
 targets::tar_read("plot_rent_price_by_province")
 ```
 
@@ -40,4 +38,3 @@ Per ampliar la perspectiva, el tercer gràfic compara els preus de lloguer per p
 L'evolució del preu de l'habitatge a Catalunya reflecteix una realitat complexa i multifacètica. Factors com la localització, l'economia, i la política habitacional juguen un paper clau en la determinació dels preus. És essencial continuar monitoritzant aquestes tendències per assegurar un mercat immobiliari just i accessible per a tots els ciutadans.
 
 En resum, mentre Catalunya continua creixent i evolucionant, també ho fa el seu mercat immobiliari. Entendre aquestes dinàmiques és crucial per a qualsevol persona interessada en el sector de l'habitatge a la regió.
-

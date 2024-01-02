@@ -54,7 +54,7 @@ list(
     map_sale_price_muni_cat,
     draw_map_sale_price_muni_cat(locations_last_price)
   ),
-  tar_quarto(article, "docs/article.qmd")
+  tar_render(article, "docs/article.Rmd")
 )
 
 
