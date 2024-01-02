@@ -1,7 +1,8 @@
 # About the Project
 
 ## Overview
-# This R project is designed to analyze and visualize the evolution of housing prices in Catalonia. It leverages the power of the `targets` and `tarchetypes` packages to create a reproducible pipeline for data processing and visualization.
+
+This R project is designed to analyze and visualize the evolution of housing prices in Catalonia. It leverages the power of the `targets` and `tarchetypes` packages to create a reproducible pipeline for data processing and visualization.
 
 ## Structure
 The project is structured around a series of targets that represent the data processing and visualization tasks. Each target is a step in the pipeline, responsible for a specific piece of the analysis.
