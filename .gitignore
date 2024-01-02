@@ -1,0 +1,28 @@
+# R specific
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.Rapp.history
+.Renviron
+.Rprofile
+.Rproj
+
+# R environment
+.Renv
+renv/
+
+# RStudio files
+*.Rproj
+.Rbuildignore
+.Rpres
+.Rproj.user/
+.Rhistory
+.Renviron
+.httr-oauth
+
+# Targets
+_targets/
+
+# Documentations
+docs/*
