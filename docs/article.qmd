@@ -1,0 +1,43 @@
+---
+title: "Evolució del Preu de l'Habitatge a Catalunya"
+format: html
+editor: visual
+execute:
+  echo: false
+theme: morph
+---
+
+## Introducció
+
+L'habitatge ha estat sempre un dels pilars fonamentals en la vida de les persones. A Catalunya, la dinàmica del mercat immobiliari ha mostrat una evolució interessant en els últims anys. Aquest article explora l'evolució del preu de l'habitatge a Catalunya, analitzant diferents factors i proporcionant una visió detallada a través de gràfics informatius.
+
+## Anàlisi del Preu de Venda
+
+```{r}
+targets::tar_read("map_sale_price_muni_cat")
+```
+
+El primer gràfic mostra l'evolució del preu de venda d'habitatges per municipi a Catalunya. Es pot observar com hi ha una gran variabilitat entre regions, reflectint la diversitat econòmica i social de la zona. Els preus han experimentat una tendència a l'alça en àrees metropolitanes, mentre que en zones rurals els canvis han estat més moderats.
+
+## Preus de Lloguer a Barcelona
+
+```{r}
+targets::tar_read("plot_rent_price_by_bcn_districts")
+```
+
+Focalitzant-nos en la ciutat de Barcelona, aquest segon gràfic mostra l'evolució dels preus de lloguer per districtes. Barcelona, com a cor econòmic i cultural, ha vist com els preus de lloguer han augmentat significativament, especialment en districtes centrals i altament demandats. Aquesta tendència planteja reptes en termes d'accessibilitat i sostenibilitat habitacional.
+
+## Comparativa Provincial dels Preus de Lloguer
+
+```{r}
+targets::tar_read("plot_rent_price_by_province")
+```
+
+Per ampliar la perspectiva, el tercer gràfic compara els preus de lloguer per província a Catalunya. Mentre Barcelona destaca per els seus alts preus, altres províncies ofereixen alternatives més assequibles, encara que no exemptes d'augments en els preus al llarg dels anys.
+
+## Conclusions
+
+L'evolució del preu de l'habitatge a Catalunya reflecteix una realitat complexa i multifacètica. Factors com la localització, l'economia, i la política habitacional juguen un paper clau en la determinació dels preus. És essencial continuar monitoritzant aquestes tendències per assegurar un mercat immobiliari just i accessible per a tots els ciutadans.
+
+En resum, mentre Catalunya continua creixent i evolucionant, també ho fa el seu mercat immobiliari. Entendre aquestes dinàmiques és crucial per a qualsevol persona interessada en el sector de l'habitatge a la regió.
+
