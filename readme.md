@@ -6,7 +6,7 @@ Aquest repositori és un projecte de mostra per a un taller d'R Targets.
 
 Pretén ser una mostra de com organitzar un projecte en R utilitzant bones pràctiques i una estructura tipus `pipeline` amb el paquet Targets.
 
-Utilitza dades aconseguides a partir d'un scraping de la web d'Idealista cortesia del [Sindicat de Llogateres](https://sindicatdellogateres.org/es/).
+Utilitza dades aconseguides a partir d'un scraping de la web d'Idealista cortesia del [Sindicat de Llogateres](https://sindicatdellogateres.org/).
 
 Abans de reproduir aquest projecte recomanem fer un cop d'ull a la [documentació oficial d'R Targets.](https://books.ropensci.org/targets/walkthrough.html)
 
